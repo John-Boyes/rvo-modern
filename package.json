@@ -1,0 +1,11 @@
+{
+  "name": "modernweb",
+  "version": "1.0.0",
+  "description": "Modern Web example. Simple landing page that is great for portfolios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Boyes",
+  "license": "MIT"
+}
