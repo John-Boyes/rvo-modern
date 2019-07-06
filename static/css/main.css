@@ -100,13 +100,19 @@ header nav ul li a {
 }
 
 .wrapper section.hero p {
+  background-color: rgba(15, 206, 190, 0.25);
   width: 70%;
   font-size: 1.2rem;
   margin-bottom: 0;
+  color: #000;
 }
 
 .wrapper section.hero h1 {
   font-size: 2.4rem;
+}
+
+.wrapper section.hero .read-btn {
+  background-color: rgba(15, 206, 190, 0.25);
 }
 
 .wrapper section.sidebar, .wrapper section.subscribe {
@@ -115,7 +121,7 @@ header nav ul li a {
 }
 
 .wrapper section.sidebar {
-  background: #FFEC8B;
+  background: #0fcebe;
 }
 
 .wrapper section.sidebar .read-btn {
