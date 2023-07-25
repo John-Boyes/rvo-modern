@@ -5,7 +5,7 @@
 $primary-color: rgb(15, 206, 190) ;
 $submit-btn-bg-color: black;
 $submit-btn-color: white;
-$filter-color: rgba(14, 88, 82, 0.25);
+$filter-color: rgba(34, 57, 187, 0.788);
 
 body, html {
     margin: 0;
@@ -90,7 +90,7 @@ header {
     }
     
     section.hero {
-        padding-top: 8em;
+        padding-top: 21em;
         background: url('../images/main.jpg');
         background-position: right;
         background-size: cover;
@@ -145,6 +145,68 @@ header {
             font-family: 'Montserrat';
         }
     }
+
+    .episode__share .listen__item:hover {
+        transform: scale(1.15);
+    }
+
+    .listen__item {
+        margin-bottom: 10px !important;
+    }
+
+
+    .episode__share .listen__item--apple {
+        background-position: 0px 0px;
+    }
+
+    .episode__share .listen__item--spotify {
+        background-position: 0px -40px;
+    }
+    .episode__share .listen__item--podcastindex {
+        background-position: 0px -811px;
+    }
+    .episode__share .listen__item--overcast {
+        background-position: 0px -280px;
+    }
+    .episode__share .listen__item--amazon {
+        background-position: 0px -651px;
+    }
+    .episode__share .listen__item--stitcher {
+        background-position: 0px -115px;
+    }
+    .episode__share .listen__item--iheartradio {
+        background-position: 0px -156px;
+    }
+    
+    .episode__share .listen__item {
+        background-color: #fff;
+        background-image: url(static\images\listen_on_small.svg);
+        background-repeat: no-repeat;
+        background-size: 25px 923px;
+        border-radius: 0;
+        font-size: 17px;
+        font-weight: normal;
+        margin-right: 15px;
+        padding: 0;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .listen__item {
+        background-color: #000;
+        background-image: url(static\images\listen_on.svg);
+        background-repeat: no-repeat;
+        background-size: 915px 28px;
+        border-radius: 5px;
+        float: left;
+        margin: 0 10px 10px 0;
+        text-indent: -9000px;
+        transition: transform .2s;
+    }
+
+
+
+
 }
 
 @media only screen and (min-width: 768px) {
