@@ -146,7 +146,7 @@ header nav ul li a {
 }
 .wrapper .episode__share .listen__item {
   background-color: #fff;
-  background-image: url(staticimageslisten_on_small.svg);
+  background-image: url(..imageslisten_on_small.svg);
   background-repeat: no-repeat;
   background-size: 25px 923px;
   border-radius: 0;
@@ -159,7 +159,7 @@ header nav ul li a {
 }
 .wrapper .listen__item {
   background-color: #000;
-  background-image: url(staticimageslisten_on.svg);
+  background-image: url(..imageslisten_on.svg);
   background-repeat: no-repeat;
   background-size: 915px 28px;
   border-radius: 5px;
