@@ -79,7 +79,7 @@ header nav ul li a {
   background-size: cover;
 }
 .wrapper section.hero p {
-  background-color: rgba(34, 57, 187, 0.788);
+  background-color: rgba(10, 255, 235, 0.795);
   width: 70%;
   font-size: 1.2rem;
   margin-bottom: 0;
@@ -89,7 +89,7 @@ header nav ul li a {
   font-size: 2.4rem;
 }
 .wrapper section.hero .read-btn {
-  background-color: rgba(34, 57, 187, 0.788);
+  background-color: rgba(10, 255, 235, 0.795);
 }
 .wrapper section.sidebar, .wrapper section.subscribe {
   font-size: 0.9rem;
